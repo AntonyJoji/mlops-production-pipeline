@@ -5,3 +5,10 @@ data_ingestion:
   s3_key: "datasets/raw_data.csv"
   raw_data_dir: "data/raw"
   raw_file_name: "ingested_data.csv"
+
+data_engineering:
+  processed_data_dir: "data/processed"
+  train_file_name: "train.csv"
+  test_file_name: "test.csv"
+  test_size: 0.2
+  random_state: 42
